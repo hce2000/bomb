@@ -9,6 +9,7 @@
 
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="終極密碼"
@@ -29,15 +30,22 @@
         android:layout_height="wrap_content"
         android:text="START"
         android:textSize="15pt"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="457dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/boom"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.354"
+        app:srcCompat="@drawable/boom" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
