@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00000"
     tools:context=".MainActivity">
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,5 +31,13 @@
         android:textSize="15pt"
         tools:layout_editor_absoluteX="128dp"
         tools:layout_editor_absoluteY="457dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/boom"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="175dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
